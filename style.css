@@ -127,3 +127,39 @@ button {
 .bot-dest:hover {
     background-color: #555;
 }
+
+.tit-novedades{
+    text-align: center;
+    color: #747474;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+main ul{
+    list-style: none;
+    padding: 0;
+    margin: 16px auto 40px auto;
+    max-width: 900px;
+    text-align: center; 
+}
+
+.list-news{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left; 
+    margin: 8px 10px;
+    padding: 10px 14px;
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+    max-width: 760px;
+}
+
+.list-news:hover{
+    padding: 20px;
+}
+
+
