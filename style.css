@@ -2,6 +2,10 @@ body{
     font-family: Arial, sans-serif;
     background-image: url(https://img2.rtve.es/n/2189921);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -77,4 +81,49 @@ footer{
     line-height: 1.6;
     color: #ffffff;
     font-weight: bold;
+}
+
+.img-bienvenida {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    width: 400px;
+}
+
+main{
+    margin-top: 10px;
+    margin-bottom: 80px;
+    padding-bottom: 45px;
+}
+
+.tit-dest {
+    text-align: center;
+    color: #747474;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bot-dest {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.bot-dest:hover {
+    background-color: #555;
 }
