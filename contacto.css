@@ -81,5 +81,28 @@ footer{
 
 .text-contacto{
     text-align: center;
+    margin-top: 10px;
+}
+
+span{
+    color: rgb(49, 49, 255);
+}
+
+.datos-contacto{
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.534);
+    text-align: justify;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.div-contacto{
+    background-color: #333333b4;
+    align-content: center;
+    justify-items: center;
+    width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
 }
 
