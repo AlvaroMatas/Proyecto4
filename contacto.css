@@ -1,6 +1,10 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url(https://img2.rtve.es/n/2189921);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -58,5 +62,24 @@ footer{
     width: 100%;
     bottom: 0;
     height: 35px;
+}
+
+.inf-contacto {
+    background-color: rgba(0,0,0,0.45);
+    color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.tit-contacto {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.text-contacto{
+    text-align: center;
 }
 
